@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyTetst</string>
+    <string name="extraction_d_objets">Extraction d\'objets</string>
+    <string name="etat_transmissions">Etat transmissions</string>
+    <string name="fin_de_journ_e">Fin de journée</string>
+    <string name="administration">Administration</string>
+    <string name="r_cup_ration_tourn_e">Récupération Tournée</string>
+    <string name="tri">Tri</string>
+    <string name="contenant_contenu">Contenant-Contenu</string>
+    <string name="arrivage">Arrivage</string>
+    <string name="chargement_quai">Chargement quai</string>
+    <string name="livraison_ramasse">Livraison/Ramasse</string>
+    <string name="message">Message</string>
+    <string name="d_chargement">Déchargement</string>
+</resources>
