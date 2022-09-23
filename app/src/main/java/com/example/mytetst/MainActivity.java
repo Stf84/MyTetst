@@ -16,9 +16,10 @@ import java.net.URI;
 
 public class MainActivity extends AppCompatActivity {
     @SuppressWarnings("FieldCanBeLocal")
-     int RIGHTS = 2 ;
+     int RIGHTS = 1 ;
      LinearLayout arr;
      LinearLayout mouv;
+     LinearLayout tri;
      Button arrivage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
          arr = findViewById(R.id.line1);
          arrivage = findViewById(R.id.arrivage);
          mouv = findViewById(R.id.line2);
+         tri = findViewById(R.id.line3);
 
         GetStatut(RIGHTS);
 
@@ -41,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case 2 :
                 mouv.setVisibility(View.GONE);
+                tri.setVisibility(View.GONE);
                 arrivage.setOnClickListener(v -> {
                     Intent i = new Intent(getApplication(), GetArrivage.class);
                     startActivity(i);
