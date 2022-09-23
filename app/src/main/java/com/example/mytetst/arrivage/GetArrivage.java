@@ -1,6 +1,7 @@
 package com.example.mytetst.arrivage;
 
 import android.os.Bundle;
+import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,6 +13,10 @@ public class GetArrivage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.arrivage);
+        ProgressBar progressBar = findViewById(R.id.progressBar2);
+
+
+
 
     }
 
