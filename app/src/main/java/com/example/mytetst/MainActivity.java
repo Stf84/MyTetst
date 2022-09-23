@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
     @SuppressWarnings("FieldCanBeLocal")
     private  static int RIGHTS ;
      LinearLayout arr;
-    private LinearLayout mouv;
-    private Button arrivage;
+     LinearLayout mouv;
+     Button arrivage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
