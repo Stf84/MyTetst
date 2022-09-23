@@ -12,4 +12,5 @@
     <string name="livraison_ramasse">Livraison/Ramasse</string>
     <string name="message">Message</string>
     <string name="d_chargement">Déchargement</string>
+    <string name="telechargement_du_fichier_xxxx_arr_en_cours">TELECHARGEMENT DU FICHIER XXXX.arr en cours....</string>
 </resources>
