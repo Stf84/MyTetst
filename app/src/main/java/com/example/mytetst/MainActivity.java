@@ -16,7 +16,7 @@ import java.net.URI;
 
 public class MainActivity extends AppCompatActivity {
     @SuppressWarnings("FieldCanBeLocal")
-     int RIGHTS = 1 ;
+     int RIGHTS  ;
      LinearLayout arr;
      LinearLayout mouv;
      LinearLayout tri;
@@ -49,6 +49,10 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(i);
 
                 });
+
+                break;
+
+            default:
 
                 break;
 
